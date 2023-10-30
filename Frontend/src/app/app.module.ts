@@ -1,5 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule, Routes } from '@angular/router';
+// import { AppRoutingModule } from './ app-routing.module'; // Adjust the path as needed
+
+
 
 import { AppComponent } from './app.component';
 
@@ -44,6 +48,7 @@ import { RegisterComponent } from './components/register/register.component';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
+    // RouterModule.forRoot(routes), 
   ],
   providers: [],
   bootstrap: [AppComponent],
