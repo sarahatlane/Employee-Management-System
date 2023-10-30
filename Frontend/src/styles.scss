@@ -5,3 +5,11 @@
 @import '@fortawesome/fontawesome-free/scss/brands.scss';
 
 @import 'mdb-angular-ui-kit/assets/scss/mdb.scss';
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #336699; /* Replace with your desired background color */
+    color: white; /* Set text color to contrast with the background */
+    font-family: Arial, sans-serif; /* Specify the font-family as needed */
+    text-align: center;
+  }
