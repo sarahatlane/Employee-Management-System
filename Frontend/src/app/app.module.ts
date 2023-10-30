@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule, Routes } from '@angular/router';
+
 // import { AppRoutingModule } from './ app-routing.module'; // Adjust the path as needed
 
 
@@ -27,11 +27,13 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import { AppRoutingModule } from './ app-routing.module';
 
 @NgModule({
-  declarations: [LoginComponent, RegisterComponent],
+  declarations: [AppComponent, LoginComponent, RegisterComponent],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     BrowserAnimationsModule,
     MdbAccordionModule,
     MdbCarouselModule,
