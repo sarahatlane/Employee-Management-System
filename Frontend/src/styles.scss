@@ -10,11 +10,15 @@
 body, html {
     margin: 0;
     padding: 0;
-    background-image:  url('./assets/Makeup3.png');
+    // background-image:  url('./assets/Makeup3.png');
     background-image: transparent;
     background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;;
+    height: 100vh;
     // background-image: 100%;
-    color: rgb(162, 27, 27);
+    // color: rgb(162, 27, 27);
     font-family: Arial, sans-serif; 
     // text-align: center;
   }
