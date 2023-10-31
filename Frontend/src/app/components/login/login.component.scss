@@ -9,8 +9,17 @@ justify-content: center;
 
 
 .background-container {
-    background-color: #336699; 
+    background-image:  url('../../../assets/realistic-makeup-background_23-2149373139.png'); 
     color: white; 
     text-align: center;
     padding: 20px;
   }
+
+// body, html {
+//     margin: 0;
+//     padding: 0;
+//     background-color:  url('../../src/assets/realistic-makeup-background_23-2149373139.avif');
+//     color: white;
+//     font-family: Arial, sans-serif; 
+//     text-align: center;
+//   }
