@@ -19,4 +19,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "backend.settings")
+    sys.path.append(os.path.join(os.path.dirname(__file__), "yourprojectname"))
