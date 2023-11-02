@@ -16,7 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.urls import path
+from .views import user_register, user_login
+from rest_framework_jwt.views import obtain_jwt_token
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+     path('register/', user_register, name='user-register'),
+    path('login/', user_login, name='user-login'),
+    path('api-token-auth/', obtain_jwt_token, name='get-token'),
 ]
+

@@ -37,7 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'rest_framework_jwt',
+    # ...
 ]
+
+# Rest Framework and JWT settings
+REST_FRAMEWORK = {
+    # ...
+}
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
