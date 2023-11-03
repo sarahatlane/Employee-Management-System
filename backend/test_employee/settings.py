@@ -75,14 +75,17 @@ WSGI_APPLICATION = 'test_employee.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        #  'ENGINE': 'django.db.backends.mysql',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+         'ENGINE': 'django.db.backend.mysql',
         # # 'NAME': BASE_DIR / 'employees',
         'NAME': 'employees',
         'USER': 'Sara',
         'PASSWORD': 'Sara@0720',
         'HOST': 'localhost', 
-        'PORT': '3306',
+        'PORT': '',
+        #  'OPTIONS': {
+        #     'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+        # },
 
         #   'ENGINE': 'django.db.backends.mysql',
         # 'NAME': 'employees',
