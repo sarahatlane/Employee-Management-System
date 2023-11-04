@@ -36,8 +36,13 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    # 'django.contrib.staticfiles',
+    # 'rest_framework',
+    # 'crispy_forms',
+    # 'test_employees',
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -47,6 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'crispy_forms.middleware.CrispyMiddleware',
 ]
 
 ROOT_URLCONF = 'test_employee.urls'
@@ -75,10 +81,10 @@ WSGI_APPLICATION = 'test_employee.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        #  'ENGINE': 'django.db.backend.mysql',
-        'NAME': BASE_DIR / 'employees',
-        # 'NAME': 'employees',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+     'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': BASE_DIR / 'employees',
+        'NAME': 'employees',
         'USER': 'Sara',
         'PASSWORD': 'Sara@0720',
         'HOST': 'localhost', 
