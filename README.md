@@ -3,6 +3,7 @@
 Get started
 
 frontend:
+---------
 
 git clone https://github.com/sarahatlane/Employee-Management-System.git
 
@@ -33,6 +34,7 @@ MDB is a collection of free Bootstrap templates, themes, design tools & resource
 # Employee-Management-System
 
 backened:
+---------
 
 git clone https://github.com/sarahatlane/Employee-Management-System.git
 
@@ -40,7 +42,7 @@ cd backend
 
 cd employeemanagementsystem 
 
-f your project is already in an existing python3 virtualenv first install django by running
+If your project is already in an existing python3 virtualenv first install django by running
 
 $ pip3 install django
 
