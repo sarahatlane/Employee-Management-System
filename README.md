@@ -5,7 +5,7 @@ Get started
 frontend:
 
 git clone https://github.com/sarahatlane/Employee-Management-System.git
-cd intern-angular
+cd frontend
 
 
 Install npm packages
@@ -22,6 +22,10 @@ The npm start command builds (compiles TypeScript and copies assets) the applica
 # Employee-Management-System
 
 backened:
+
+git clone https://github.com/sarahatlane/Employee-Management-System.git
+cd backend
+cd employeemanagementsystem 
 
 f your project is already in an existing python3 virtualenv first install django by running
 $ pip3 install django
