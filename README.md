@@ -14,7 +14,9 @@ Install the npm packages described in the package.json and verify that it works:
 npm install
 npm start
 
-The npm start command builds (compiles TypeScript and copies assets) the application into dist/, watches for changes to the source files, and runs lite-server on port 4200.
+The npm start command builds (compiles TypeScript and copies assets)
+http://localhost:4200/ 
+port 4200.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------
@@ -24,10 +26,12 @@ The npm start command builds (compiles TypeScript and copies assets) the applica
 backened:
 
 git clone https://github.com/sarahatlane/Employee-Management-System.git
+
 cd backend
 cd employeemanagementsystem 
 
 f your project is already in an existing python3 virtualenv first install django by running
+
 $ pip3 install django
 $ python3 manage.py migrate
 
@@ -37,7 +41,9 @@ $ django-admin.py startproject
 
 If you don't have django installed for python 3 then run:
 $ pip3 install django
+
 And then:
+
 $ python3 -m django startproject
 
 You can now run the development server:
