@@ -9,22 +9,15 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 // import { SideNavComponent } from './components/side-nav/side-nav.component';
 
-
 const routes: Routes = [
   { path: 'login', component: LoginComponent }, // Default route
   { path: 'register', component: RegisterComponent },
-  { path: 'dashboard', component: DashboardComponent},
-  { path: 'sidenav', component: SidenavComponent}
-  
-
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'sidenav', component: SidenavComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
-
 export class AppRoutingModule {}
-
-
-
