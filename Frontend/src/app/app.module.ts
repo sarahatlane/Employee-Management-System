@@ -29,10 +29,11 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { AppRoutingModule } from './ app-routing.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
 // import { SidenavComponent } from './components/sidenav/sidenav.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, RegisterComponent, DashboardComponent],
+  declarations: [AppComponent, LoginComponent, RegisterComponent, DashboardComponent, SideNavComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
