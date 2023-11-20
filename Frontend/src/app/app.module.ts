@@ -3,11 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 // import { AppRoutingModule } from './ app-routing.module'; // Adjust the path as needed
 
-
-
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
-
 
 // MDB Modules
 // import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
@@ -26,20 +23,21 @@ import { MdbModalModule } from 'mdb-angular-ui-kit/modal';
 // import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 
-
-
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { AppRoutingModule } from './ app-routing.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
-// import { SideNavComponent } from './components/side-nav/side-nav.component';
-// import { SideNavComponent } from './components/side-nav/side-nav.component';
-// import { SidenavComponent } from './components/sidenav/sidenav.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, RegisterComponent, DashboardComponent, SidenavComponent,],
+  declarations: [
+    AppComponent,
+    LoginComponent,
+    RegisterComponent,
+    DashboardComponent,
+    SidenavComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -60,7 +58,6 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
     // MdbTooltipModule,
     MdbValidationModule,
     RouterModule.forRoot([]),
-
   ],
   providers: [],
   bootstrap: [AppComponent],
