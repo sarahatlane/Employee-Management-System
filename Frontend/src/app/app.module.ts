@@ -6,6 +6,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 
 import { AppComponent } from './app.component';
+import { RouterModule } from '@angular/router';
+
 
 // MDB Modules
 // import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
@@ -30,6 +32,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { AppRoutingModule } from './ app-routing.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
+// import { SideNavComponent } from './components/side-nav/side-nav.component';
 // import { SidenavComponent } from './components/sidenav/sidenav.component';
 
 @NgModule({
@@ -54,6 +57,8 @@ import { SideNavComponent } from './side-nav/side-nav.component';
     // MdbTooltipModule,
     MdbValidationModule,
     // RouterModule.forRoot(routes), 
+    RouterModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent],
