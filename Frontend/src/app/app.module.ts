@@ -29,6 +29,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { AppRoutingModule } from './ app-routing.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
     RegisterComponent,
     DashboardComponent,
     SidenavComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,
