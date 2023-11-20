@@ -6,14 +6,15 @@ import { RouterModule } from '@angular/router';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-// import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { SideNavComponent } from './components/side-nav/side-nav.component';
+// import { SideNavComponent } from './components/side-nav/side-nav.component';
 
 
 const routes: Routes = [
-  { path: '', component: LoginComponent }, // Default route
+  { path: 'login', component: LoginComponent }, // Default route
   { path: 'register', component: RegisterComponent },
   { path: 'dashboard', component: DashboardComponent},
-  // { path: 'sidenav', component: SidenavComponent}
+  { path: 'sidenav', component: SideNavComponent}
   
 
 ];
