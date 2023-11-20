@@ -31,7 +31,7 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { AppRoutingModule } from './ app-routing.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { SideNavComponent } from './side-nav/side-nav.component';
+import { SideNavComponent } from './components/side-nav/side-nav.component';
 // import { SideNavComponent } from './components/side-nav/side-nav.component';
 // import { SidenavComponent } from './components/sidenav/sidenav.component';
 
@@ -56,8 +56,7 @@ import { SideNavComponent } from './side-nav/side-nav.component';
     // MdbTabsModule,
     // MdbTooltipModule,
     MdbValidationModule,
-    // RouterModule.forRoot(routes), 
-    RouterModule,
+    RouterModule.forRoot([]),
 
   ],
   providers: [],
