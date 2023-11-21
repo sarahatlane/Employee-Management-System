@@ -29,7 +29,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { AppRoutingModule } from './ app-routing.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
-import { SearchComponent } from './search/search.component';
+import { SearchComponent } from './components/search/search.component';
 import { AddComponent } from './components/add/add.component';
 
 @NgModule({
