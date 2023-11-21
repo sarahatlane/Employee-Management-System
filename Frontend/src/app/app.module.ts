@@ -31,6 +31,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { SearchComponent } from './components/search/search.component';
 import { AddComponent } from './components/add/add.component';
+import { ViewComponent } from './components/view/view.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { AddComponent } from './components/add/add.component';
     SidenavComponent,
     SearchComponent,
     AddComponent,
+    ViewComponent,
   ],
   imports: [
     BrowserModule,
