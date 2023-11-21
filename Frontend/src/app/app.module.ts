@@ -30,6 +30,7 @@ import { AppRoutingModule } from './ app-routing.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { SearchComponent } from './search/search.component';
+import { AddComponent } from './components/add/add.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { SearchComponent } from './search/search.component';
     DashboardComponent,
     SidenavComponent,
     SearchComponent,
+    AddComponent,
   ],
   imports: [
     BrowserModule,
