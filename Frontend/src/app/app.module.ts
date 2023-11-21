@@ -14,7 +14,7 @@ import { RouterModule } from '@angular/router';
 // import { MdbDropdownModule } from 'mdb-angular-ui-kit/dropdown';
 import { MdbFormsModule } from 'mdb-angular-ui-kit/forms';
 import { MdbModalModule } from 'mdb-angular-ui-kit/modal';
-// import { MdbPopoverModule } from 'mdb-angular-ui-kit/popover';
+import { MdbPopoverModule } from 'mdb-angular-ui-kit/popover';
 // import { MdbRadioModule } from 'mdb-angular-ui-kit/radio';
 // import { MdbRangeModule } from 'mdb-angular-ui-kit/range';
 // import { MdbRippleModule } from 'mdb-angular-ui-kit/ripple';
@@ -53,7 +53,7 @@ import { AddComponent } from './components/add/add.component';
     // MdbDropdownModule,
     MdbFormsModule,
     MdbModalModule,
-    // MdbPopoverModule,
+    MdbPopoverModule,
     // MdbRadioModule,
     // MdbRangeModule,
     // MdbRippleModule,
