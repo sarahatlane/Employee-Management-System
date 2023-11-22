@@ -8,6 +8,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { AddComponent } from './components/add/add.component';
 import { ViewComponent } from './components/view/view.component';
+import { ModalComponent } from './components/modal/modal.component';
 
 
 
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'sidenav', component: SidenavComponent },
   { path: 'add', component: AddComponent},
   { path: 'view', component:ViewComponent},
+  { path: 'modal', component:ModalComponent}
 ];
 
 @NgModule({
