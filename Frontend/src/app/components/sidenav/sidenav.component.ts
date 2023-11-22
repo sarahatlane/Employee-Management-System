@@ -5,7 +5,7 @@ import { MdbModalRef, MdbModalService } from 'mdb-angular-ui-kit/modal';
 @Component({
   selector: 'app-sidenav',
   templateUrl: './sidenav.component.html',
-  styleUrls: ['./sidenav.component.scss']
+  styleUrls: ['./sidenav.component.scss'],
 })
 export class SidenavComponent {
   modalRef: MdbModalRef<AddComponent> | null = null;
@@ -13,7 +13,6 @@ export class SidenavComponent {
   constructor(private modalService: MdbModalService) {}
 
   openModal() {
-    this.modalRef = this.modalService.open(AddComponent)
+    this.modalRef = this.modalService.open(AddComponent);
   }
 }
-

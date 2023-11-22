@@ -32,7 +32,6 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { SearchComponent } from './components/search/search.component';
 import { AddComponent } from './components/add/add.component';
 import { ViewComponent } from './components/view/view.component';
-import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +43,6 @@ import { ModalComponent } from './modal/modal.component';
     SearchComponent,
     AddComponent,
     ViewComponent,
-    ModalComponent,
   ],
   imports: [
     BrowserModule,
@@ -64,7 +62,7 @@ import { ModalComponent } from './modal/modal.component';
     // MdbScrollspyModule,
     // MdbTabsModule,
     // MdbTooltipModule,
-    
+
     MdbValidationModule,
     RouterModule.forRoot([]),
   ],
