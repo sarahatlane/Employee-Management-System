@@ -1,6 +1,5 @@
-import { Component ,ViewChild} from '@angular/core';
-import { ModalComponent } from '../modal/modal.component';
-import { MdbModalRef, MdbModalService } from 'mdb-angular-ui-kit/modal';
+import { Component } from '@angular/core';
+import { MdbModalRef } from 'mdb-angular-ui-kit/modal';
 
 
 @Component({
@@ -9,13 +8,19 @@ import { MdbModalRef, MdbModalService } from 'mdb-angular-ui-kit/modal';
   styleUrls: ['./add.component.scss']
 })
 export class AddComponent {
-  modalRef: MdbModalRef<ModalComponent> | null = null;
+  constructor(public modalRef: MdbModalRef<AddComponent>) {}
 
-  constructor(private modalService: MdbModalService) {}
-
-  openModal() {
-    this.modalRef = this.modalService.open(ModalComponent)
-  }
 
 }
 
+
+// import { Component } from '@angular/core';
+// import { MdbModalRef } from 'mdb-angular-ui-kit/modal';
+
+// @Component({
+//   selector: 'app-modal',
+//   templateUrl: './modal.component.html',
+// })
+// export class ModalComponent {
+//   constructor(public modalRef: MdbModalRef<ModalComponent>) {}
+// }

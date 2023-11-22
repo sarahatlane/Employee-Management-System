@@ -8,7 +8,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { AddComponent } from './components/add/add.component';
 import { ViewComponent } from './components/view/view.component';
-import { ModalComponent } from './components/modal/modal.component';
+import { ModalComponent } from './modal/modal.component';
 
 
 
