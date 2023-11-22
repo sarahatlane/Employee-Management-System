@@ -1,40 +1,65 @@
-<div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Sign up</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <i class="fas fa-user prefix grey-text"></i>
-          <input type="text" id="orangeForm-name" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="orangeForm-name">Your name</label>
-        </div>
-        <div class="md-form mb-5">
-          <i class="fas fa-envelope prefix grey-text"></i>
-          <input type="email" id="orangeForm-email" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="orangeForm-email">Your email</label>
-        </div>
-
-        <div class="md-form mb-4">
-          <i class="fas fa-lock prefix grey-text"></i>
-          <input type="password" id="orangeForm-pass" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="orangeForm-pass">Your password</label>
-        </div>
-
-      </div>
-      <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-deep-orange">Sign up</button>
-      </div>
+<form>
+  <!-- 2 column grid layout with text inputs for the first and last names -->
+  <div class="row mb-4">
+    <div class="col">
+      <mdb-form-control>
+        <input mdbInput type="text" id="form6Example1" class="form-control" />
+        <label mdbLabel class="form-label" for="form6Example1">First name</label>
+      </mdb-form-control>
+    </div>
+    <div class="col">
+      <mdb-form-control>
+        <input mdbInput type="text" id="form6Example2" class="form-control" />
+        <label mdbLabel class="form-label" for="form6Example2">Last name</label>
+      </mdb-form-control>
     </div>
   </div>
-</div>
 
-<div class="text-center">
-  <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalRegisterForm">Launch
-    Modal Register Form</a>
-</div>
+  <!-- Text input -->
+  <mdb-form-control class="mb-4">
+    <input mdbInput type="text" id="form6Example3" class="form-control" />
+    <label mdbLabel class="form-label" for="form6Example3">Company name</label>
+  </mdb-form-control>
+
+  <!-- Text input -->
+  <mdb-form-control class="mb-4">
+    <input mdbInput type="text" id="form6Example4" class="form-control" />
+    <label mdbLabel class="form-label" for="form6Example4">Address</label>
+  </mdb-form-control>
+
+  <!-- Email input -->
+  <mdb-form-control class="mb-4">
+    <input mdbInput type="email" id="form6Example5" class="form-control" />
+    <label mdbLabel class="form-label" for="form6Example5">Email</label>
+  </mdb-form-control>
+
+  <!-- Number input -->
+  <mdb-form-control class="form-outline mb-4">
+    <input mdbInput type="number" id="form6Example6" class="form-control" />
+    <label mdbLabel class="form-label" for="form6Example6">Phone</label>
+  </mdb-form-control>
+
+  <!-- Message input -->
+  <mdb-form-control class="form-outline mb-4">
+    <textarea mdbInput class="form-control" id="form6Example7" rows="4"></textarea>
+    <label mdbLabel class="form-label" for="form6Example7">Additional information</label>
+  </mdb-form-control>
+
+  <!-- Checkbox -->
+  <div class="form-check d-flex justify-content-center mb-4">
+    <input
+      mdbCheckbox
+      class="form-check-input me-2"
+      type="checkbox"
+      value=""
+      id="form6Example8"
+      [checked]="true"
+    />
+    <label class="form-check-label" for="form6Example8"> Create an account? </label>
+  </div>
+
+  <!-- Submit button -->
+  <button mdbRipple type="button" class="btn btn-primary btn-block mb-4">
+    Place order
+  </button>
+</form>
