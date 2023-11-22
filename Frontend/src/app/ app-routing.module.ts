@@ -10,7 +10,7 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { AddComponent } from './components/add/add.component';
 import { ViewComponent } from './components/view/view.component';
 
-// import { SideNavComponent } from './components/side-nav/side-nav.component';
+
 
 const routes: Routes = [
   { path: '', component: LoginComponent }, // Default route
