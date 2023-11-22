@@ -62,6 +62,7 @@ import { ViewComponent } from './components/view/view.component';
     // MdbScrollspyModule,
     // MdbTabsModule,
     // MdbTooltipModule,
+    
     MdbValidationModule,
     RouterModule.forRoot([]),
   ],

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component ,ViewChild} from '@angular/core';
+import { MdbModalRef } from 'mdb-angular-ui-kit/modal';
 
 
 @Component({
@@ -7,6 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./add.component.scss']
 })
 export class AddComponent {
+  
 
 }
 
