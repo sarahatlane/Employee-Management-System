@@ -10,6 +10,7 @@
   overflow: hidden;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
+
   }
   
   .testimonial-card .avatar {
@@ -18,4 +19,8 @@
   overflow: hidden;
   border: 3px solid #fff;
   border-radius: 50%;
+  }
+
+  .views{
+    position: fixed;
   }
