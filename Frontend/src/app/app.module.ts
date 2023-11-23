@@ -31,6 +31,7 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { SearchComponent } from './components/search/search.component';
 import { AddComponent } from './components/add/add.component';
 import { ViewComponent } from './components/view/view.component';
+import { EditComponent } from './components/edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { ViewComponent } from './components/view/view.component';
     SearchComponent,
     AddComponent,
     ViewComponent,
+    EditComponent,
   ],
   imports: [
     BrowserModule,
