@@ -17,13 +17,21 @@
   margin-bottom: 12rem;
   margin-left: 20rem;
   margin-right: 4rem;
+  // max-height: 100%;
+  // display: flex;
+  // // flex: auto;
+  // flex-direction: column;
+  // overflow: hidden;
+  // flex: auto;
+  // overflow: auto;
+  // height: auto;
+  // overflow-y: scroll;
+  // position: relative;
+height: 600px;
+overflow: auto;
+
 }
 
 .col-md-4 {
-  // margin-bottom:auto ;
-  // padding: auto;
-  color: red;
-  // margin-bottom: -10rem;
-  // padding-bottom: 20rm;
-  padding: 1rem;
+  padding: 25px;
 }
