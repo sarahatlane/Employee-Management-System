@@ -1,7 +1,13 @@
 .search {
   text-align: center;
-  position: fixed;
   margin-left: 45%;
   padding-bottom: 5rem;
   margin-top: 5rem;
+  position: fixed;
+  // position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 10;
+  // top: 0;
+  // left: 0;
 }
