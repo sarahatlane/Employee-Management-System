@@ -32,6 +32,7 @@ import { SearchComponent } from './components/search/search.component';
 import { AddComponent } from './components/add/add.component';
 import { ViewComponent } from './components/view/view.component';
 import { EditComponent } from './components/edit/edit.component';
+import { ReportComponent } from './components/report/report.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { EditComponent } from './components/edit/edit.component';
     AddComponent,
     ViewComponent,
     EditComponent,
+    ReportComponent,
   ],
   imports: [
     BrowserModule,
