@@ -7,24 +7,21 @@ import { AuthService } from '../../services/auth.service';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
-  credentials = {
-    username: '',
-    password: ''
-  };
+  
+  username: string = '';
+  password: string = '';
 
   constructor(private authService: AuthService) { }
-  onSubmit(): void {
-    this.authService.login(this.credentials).subscribe(
-      (response) => {
-        // Assuming the backend sends back a token upon successful login
-        const token = response.token; // Adjust this based on the actual response structure
-        // Store the token securely (e.g., in localStorage)
-        localStorage.setItem('token', token);
-        console.log('Login successful! Token stored:', token);
+
+  onSubmit() {
+    this.authService.login(this.username, this.password).subscribe(
+      (res) => {
+        // Handle successful login response here (store token, redirect, etc.)
+        console.log('Login successful:', res);
       },
       (error) => {
-        console.error('Login failed:', error);
         // Handle login error here
+        console.error('Login error:', error);
       }
     );
   }

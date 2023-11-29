@@ -6,13 +6,11 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthService {
-  private loginUrl = 'http://your-backend-url/login'; // Replace with your actual login endpoint URL
-
-
+  apiUrl = 'http://your-django-backend/api/token/';
 
   constructor(private http: HttpClient) { }
 
-  login(credentials: { username: string, password: string }): Observable<any> {
-    return this.http.post<any>(this.loginUrl, credentials);
+  login(username: string, password: string) {
+    return this.http.post<any>(this.apiUrl, { username, password });
   }
 }
