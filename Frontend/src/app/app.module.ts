@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 
-
 // MDB Modules
 // import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
 // import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
@@ -36,7 +35,6 @@ import { ViewComponent } from './components/view/view.component';
 import { EditComponent } from './components/edit/edit.component';
 import { ReportComponent } from './components/report/report.component';
 import { FormsModule } from '@angular/forms';
-
 
 @NgModule({
   declarations: [
