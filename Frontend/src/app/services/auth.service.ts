@@ -9,5 +9,10 @@ export class AuthService {
   private loginUrl = 'http://your-backend-url/login'; // Replace with your actual login endpoint URL
 
 
-  constructor() { }
+
+  constructor(private http: HttpClient) { }
+
+  login(credentials: { username: string, password: string }): Observable<any> {
+    return this.http.post<any>(this.loginUrl, credentials);
+  }
 }
