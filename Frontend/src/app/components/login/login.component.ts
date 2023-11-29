@@ -16,7 +16,7 @@ export class LoginComponent {
   constructor(private authService: AuthService) { }
 
   onSubmit() {
-    this.authService.login(this.username, this.password).subscribe(
+    this.authService.login(this.email, this.password).subscribe(
       (res) => {
         // Handle successful login response here (store token, redirect, etc.)
         console.log('Login successful:', res);

@@ -5,6 +5,8 @@ import { AppRoutingModule } from './ app-routing.module';
 
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
+
 
 // MDB Modules
 // import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
@@ -62,6 +64,7 @@ import { FormsModule } from '@angular/forms';
     MdbModalModule,
     MdbPopoverModule,
     FormsModule,
+    HttpClientModule,
     // MdbRadioModule,
     // MdbRangeModule,
     // MdbRippleModule,
