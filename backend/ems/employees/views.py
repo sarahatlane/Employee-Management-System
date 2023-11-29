@@ -4,6 +4,8 @@ from rest_framework import generics
 from .models import Employee
 from .serializers import EmployeeSerializer
 from rest_framework_simplejwt.views import TokenObtainPairView
+from django.urls import path
+
 
 
 
@@ -19,3 +21,9 @@ class EmployeeDetailView(generics.RetrieveUpdateDestroyAPIView):
 
 class CustomTokenObtainPairView(TokenObtainPairView):
     serializer_class = CustomTokenObtainPairSerializer  # Define your custom serializer here
+
+
+    urlpatterns = [
+    # Other URL patterns
+    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+]
