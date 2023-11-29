@@ -33,6 +33,8 @@ import { AddComponent } from './components/add/add.component';
 import { ViewComponent } from './components/view/view.component';
 import { EditComponent } from './components/edit/edit.component';
 import { ReportComponent } from './components/report/report.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -59,6 +61,7 @@ import { ReportComponent } from './components/report/report.component';
     MdbFormsModule,
     MdbModalModule,
     MdbPopoverModule,
+    FormsModule,
     // MdbRadioModule,
     // MdbRangeModule,
     // MdbRippleModule,

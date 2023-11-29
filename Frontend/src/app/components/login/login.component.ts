@@ -8,8 +8,10 @@ import { AuthService } from '../../services/auth.service';
 })
 export class LoginComponent {
   
-  username: string = '';
-  password: string = '';
+  // username: string = '';
+  // password: string = '';
+  email: string;
+  password: string;
 
   constructor(private authService: AuthService) { }
 
