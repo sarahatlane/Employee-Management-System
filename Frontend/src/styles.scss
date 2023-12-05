@@ -6,6 +6,7 @@
 
 @import "mdb-angular-ui-kit/assets/scss/mdb.scss";
 
+//Report Graphs
 @import "@grapecity/wijmo.styles/themes/wijmo.theme.material.css";
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
@@ -35,7 +36,6 @@ Making the project to be responsive .my-element {
 }
 
 //Report Graphs
-
 body {
   margin: 0;
   background-color: hsl(0, 0%, 95%);
