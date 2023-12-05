@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./report.component.scss']
 })
 export class ReportComponent {
+  // nav.component.ts
+
+// menuItems = ['dashboard'];
 
 }
