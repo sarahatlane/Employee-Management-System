@@ -65,6 +65,17 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    WjCoreModule,
+
+    WjGridModule,
+
+    WjChartModule,
+
+    WjChartMapModule,
+
+    WjGaugeModule,
+
+    WjInputModule,
     // MdbAccordionModule,
     // MdbCarouselModule,
     // MdbCheckboxModule,
