@@ -7,6 +7,18 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 
+import { WjCoreModule } from '@grapecity/wijmo.angular2.core';
+
+import { WjGridModule } from '@grapecity/wijmo.angular2.grid';
+
+import { WjChartModule } from '@grapecity/wijmo.angular2.chart';
+
+import { WjChartMapModule } from '@grapecity/wijmo.angular2.chart.map';
+
+import { WjGaugeModule } from '@grapecity/wijmo.angular2.gauge';
+
+import { WjInputModule } from '@grapecity/wijmo.angular2.input';
+
 // MDB Modules
 // import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
 // import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
