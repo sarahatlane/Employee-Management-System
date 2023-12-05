@@ -20,6 +20,8 @@
     "@angular/platform-browser-dynamic": "^16.1.2",
     "@angular/router": "^16.1.2",
     "@fortawesome/fontawesome-free": "^6.4.2",
+    "@grapecity/wijmo.all": "^5.20231.904",
+    "bootstrap-icons": "^1.11.2",
     "mdb": "^0.1.0",
     "mdb-angular-ui-kit": "file:mdb-angular-ui-kit-5.1.0.tgz",
     "mdbootstrap": "^4.20.0",
